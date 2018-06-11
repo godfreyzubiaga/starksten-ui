@@ -6,7 +6,9 @@
 
 ## Installation
 
-> npm install starksten-ui
+```
+  npm install starksten-ui
+```
 
 ## Usage
 
