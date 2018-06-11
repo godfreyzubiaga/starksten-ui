@@ -6,7 +6,7 @@ export default styled.button`
   background: ${props => (props.primary ? '#1e90ff' : 'none')};
   border-radius: 3px;
   padding: ${props => (props.small ? '7px 12px' : '6px 20px')};
-  font-size: ${props => (props.small ? '0.8em': '0.9')};
+  font-size: ${props => (props.small ? '0.8em' : '0.9')};
   cursor: pointer;
   transition-duration: 0.3s;
 
