@@ -19,7 +19,7 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx'],
     alias: {
-      starkstenui: path.join(__dirname, 'src'),
+      'starksten-ui': path.join(__dirname, 'src'),
     },
   },
   plugins: [
