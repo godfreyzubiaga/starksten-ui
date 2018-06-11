@@ -12,7 +12,7 @@
 
 ## Usage
 
-```
+```javascript
   import { H1, Button } from 'starksten-ui';
   ReactDOM.render(
     <div>
@@ -26,7 +26,7 @@
 
 #### Usage:
 
-```
+```html
   <Button>Submit</Button>
 ```
 
@@ -40,7 +40,8 @@
 ## Typography
 
 #### Usage:
-```
+
+```html
   <P>Paragraph</P>
   <H1>Header Text 1</H1>
   <H2>Header Text 2</H2>
