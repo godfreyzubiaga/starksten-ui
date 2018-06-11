@@ -1,5 +1,7 @@
 # Starksten UI
 
+### A UI Components for React
+
 #### Hey there! I made this for myself but you're very welcome to use it.
 
 ---
@@ -21,7 +23,13 @@
     </div>,
   mountPoint);
 ```
+---
+## Links
 
+1. [Buttons](#buttons)
+1. [Typography](#typography)
+
+---
 ## Buttons
 
 #### Usage:
