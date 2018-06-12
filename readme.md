@@ -31,7 +31,7 @@
 1. [Card](#card)
 1. [Input](#input)
 1. [Line](#line)
-1. [Vertically Centered Div](#vertically%20Centered%20Div)
+1. [Vertically Centered Div](#verticallyCenteredDiv)
 
 ---
 
@@ -195,7 +195,7 @@ A vertical line.
 ```
 ---
 
-## Vertically Centered Div
+## VerticallyCenteredDiv
 
 That's it. You read that right.
 
