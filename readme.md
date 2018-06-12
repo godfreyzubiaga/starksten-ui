@@ -31,7 +31,7 @@
 1. [Card](#card)
 1. [Input](#input)
 1. [Line](#line)
-1. [Vertically Centered Div](#verticallyCenteredDiv)
+1. [VerticallyCenteredDiv](#verticallyCenteredDiv)
 
 ---
 
