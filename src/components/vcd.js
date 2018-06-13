@@ -7,5 +7,7 @@ export default styled.div`
   background: ${props => (props.background ? props.background : 'white')};
   height: ${props => (props.height ? props.height : 'auto')};
   width: ${props => (props.width ? props.width : 'auto')};
-  margin ${props => (props.margin ? props.margin : 'none')};
+  margin ${props => (props.margin ? props.margin : '100%')};
+  padding: ${props => (props.padding ? props.padding : 'none')};
+  color: ${props => (props.color ? props.color : 'black')};
 `;
