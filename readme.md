@@ -86,9 +86,11 @@ Includes h1 - h4, and p tag.
 ```
   fontStyle     = none
   fontWeight    = none
+  margin        = '0'
 
   // For 'P' only
   fontSize      = 1em 
+  margin        = '5px 0'
 ```
 
 ##### Usable Props
