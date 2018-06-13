@@ -221,8 +221,10 @@ P.S. Its Container must have a height.
 
 ```
   background        = white
-  height & width    = none
+  height & width    = none & 100%
   margin            = none
+  color             = black
+  padding           = none
 ```
 
 ##### Usable Props
@@ -231,5 +233,7 @@ P.S. Its Container must have a height.
   background          (String) > i.e. 'white' 'rgb(255, 255, 255)' '#ffffff'
   height & width      (String) > i.e. '200px' '80%'
   margin              (String) > i.e. '20px auto'
+  color:              (String) > i.e. 'white' 'rgb(255, 255, 255)' '#ffffff'
+  padding             (String) > i.e.  '20px' '20px 10px'
 ```
 ---
