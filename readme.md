@@ -98,6 +98,7 @@ Includes h1 - h4, and p tag.
 ```
   fontStyle   (String) > normal | italic | oblique | initial | inherit
   fontWeight  (String) > bold | thin | normal | 100 - 700
+  margin      (String) > (String) > i.e. '20px' 'auto' '20px auto'
 
   // For 'P' only
   fontSize    (String) > i.e. 1em / 20px
@@ -159,6 +160,7 @@ Background is inherited from the container.
   display         = inline-block
   width           = auto
   color           = black
+  margin          = 20px auto 30px auto;
 ```
 
 ##### Usable Props
@@ -168,6 +170,7 @@ Background is inherited from the container.
   display     (String) > i.e. 1em / 20px
   width       (String) > i.e. '200px' '80%'
   color:      (String) > i.e. 'white' 'rgb(255, 255, 255)' '#ffffff'
+  margin      (String) > i.e. '20px' 'auto' '20px auto'
 ```
 ---
 
