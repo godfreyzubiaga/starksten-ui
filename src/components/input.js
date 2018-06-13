@@ -10,7 +10,7 @@ export default styled.input`
   text-align: left;
   color: ${props => (props.color ? props.color : 'black')};
   font-weight: 100;
-  margin: 20px auto 30px auto;
+  margin: ${props => (props.margin ? props.margin : '20px auto 30px auto')};
   width: ${props => (props.width ? props.width : 'auto')};
   background: none;
   display: ${props => (props.display ? props.display : 'inline-block')};
