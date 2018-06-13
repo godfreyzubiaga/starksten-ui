@@ -23,6 +23,8 @@
     </div>,
   mountPoint);
 ```
+
+  [Check out some examples](http://www.godfreyzubiaga.co/showcase-starksten-ui/index.html)
 ---
 ## Links
 
