@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const H1 = styled.h1`
-  margin: 0;
+  margin: ${props => (props.margin ? props.margin : '0')};
   font-size: 30px;
   font-style: ${props => (props.fontStyle ? props.fontStyle : 'none')};
   font-weight: ${props => (props.fontWeight ? props.fontWeight : 'none')};
@@ -20,7 +20,7 @@ export const H4 = styled(H1)`
 `;
 
 export const P = styled(H1)`
-  margin: 5px 0;
+  margin: ${props => (props.margin ? props.margin : '5px 0')};
   font-weight: normal;
   font-size: ${props => (props.fontSize ? props.fontSize : '1em')};
 `;
