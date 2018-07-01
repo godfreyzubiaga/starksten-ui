@@ -24,7 +24,7 @@
   mountPoint);
 ```
 
-  ### Also, this font is required. Add this to your HTML File.
+### Also, this font is required. Add this to your HTML File.
 
   ` <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet"> `
 
@@ -37,8 +37,8 @@
 1. [Card](#card)
 1. [Input](#input)
 1. [Line](#line)
-1. [VerticallyCenteredDiv](#verticallyCenteredDiv)
-1. [LoginForm](#loginForm)
+1. [VerticallyCenteredDiv](#verticallycentereddiv)
+1. [LoginForm](#loginform)
 
 ---
 
