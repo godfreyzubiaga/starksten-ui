@@ -4,3 +4,4 @@ export { default as Card } from './components/card';
 export { default as Input } from './components/input';
 export { default as VerticallyCenteredDiv } from './components/vcd';
 export { default as Line } from './components/line';
+export { default as LoginForm } from './components/loginForm';
