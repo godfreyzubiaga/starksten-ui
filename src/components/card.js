@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 export default styled.div`
-  -webkit-box-shadow: 14px 17px 42px -2px rgba(0, 0, 0, 0.20);
-  -moz-box-shadow: 14px 17px 42px -2px rgba(0, 0, 0, 0.20);
-  box-shadow: 14px 17px 42px -2px rgba(0, 0, 0, 0.20);
+  -webkit-box-shadow: 14px 17px 42px -2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 14px 17px 42px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 14px 17px 42px -2px rgba(0, 0, 0, 0.2);
+  font-family: 'Fira Sans Condensed', sans-serif;
   border: 1px solid rgb(240, 240, 240);
   height: ${props => (props.height ? props.height : '350px')};
-  margin: ${props => (props.margin ? props.margin : '10px auto')};
+  margin: ${props => (props.margin ? props.margin : '30px auto')};
   grid-area: ${props => (props.gridArea ? props.gridArea : 'card')};
   padding: 20px;
   text-align: center;
