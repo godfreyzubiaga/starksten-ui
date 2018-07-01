@@ -5,6 +5,7 @@ export const H1 = styled.h1`
   font-size: 30px;
   font-style: ${props => (props.fontStyle ? props.fontStyle : 'none')};
   font-weight: ${props => (props.fontWeight ? props.fontWeight : 'none')};
+  font-family: 'Fira Sans Condensed', sans-serif;
 `;
 
 export const H2 = styled(H1)`
