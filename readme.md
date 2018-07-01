@@ -24,6 +24,10 @@
   mountPoint);
 ```
 
+  ### Also, this font is required. Add this to your HTML File.
+
+  ` <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet"> `
+
   [Check out some examples](http://www.godfreyzubiaga.co/showcase-starksten-ui/index.html)
 ---
 ## Links
@@ -34,6 +38,7 @@
 1. [Input](#input)
 1. [Line](#line)
 1. [VerticallyCenteredDiv](#verticallyCenteredDiv)
+1. [LoginForm](#loginForm)
 
 ---
 
@@ -46,7 +51,7 @@ A simple button with simple design.
 ```javascript
   import { Button } from 'starksten-ui';
 
-  <Button>Submit</Button>
+  <Button name="Click" />
 ```
 
 #### Props
@@ -63,9 +68,11 @@ A simple button with simple design.
 
 
 ```
-  small    (boolean) > size
-  primary  (boolean) > color & background
-  margin   (string)  > i.e. '20px' 'auto' '20px auto'
+  small     (boolean) > size
+  primary   (boolean) > color & background
+  margin    (string)  > i.e. '20px' 'auto' '20px auto'
+  name      (string) > i.e 'Submit'                               - Required
+  action    (function) > i.e () => console.log('hello world')     - Required
 ```
 ---
 ## Typography
@@ -168,11 +175,14 @@ Background is inherited from the container.
 ##### Usable Props
 
 ```
-  fontSize    (String) > i.e. 1em / 20px
-  display     (String) > i.e. 1em / 20px
-  width       (String) > i.e. '200px' '80%'
-  color:      (String) > i.e. 'white' 'rgb(255, 255, 255)' '#ffffff'
-  margin      (String) > i.e. '20px' 'auto' '20px auto'
+  fontSize      (String) > i.e. 1em / 20px
+  display       (String) > i.e. 1em / 20px
+  width         (String) > i.e. '200px' '80%'
+  color:        (String) > i.e. 'white' 'rgb(255, 255, 255)' '#ffffff'
+  margin        (String) > i.e. '20px' 'auto' '20px auto'
+  name          (String) > i.e. 'username'
+  label         (String) > i.e. 'Username'
+  placeholder   (String) > i.e. 'Username'
 ```
 ---
 
@@ -210,7 +220,7 @@ P.S. Its Container must have a height.
 
 #### Usage:
 ```javascript
-  import { VerticallyCenteredDiv, Card, H1 } from 'starksten-ui';
+  import { VerticallyCenteredDiv, Card } from 'starksten-ui';
 
   <Card>
     <VerticallyCenteredDiv />
@@ -239,3 +249,36 @@ P.S. Its Container must have a height.
   padding             (String) > i.e.  '20px' '20px 10px'
 ```
 ---
+
+## LoginForm
+
+A simple Login Form which accepts email/username and password.
+
+#### Usage
+
+```javascript
+  import { LoginForm } from 'starksten-ui';
+  
+  const showInputs = (data) => {
+    console.log(data);
+  };
+  
+  <LoginForm loginAction={showInputs} />
+```
+
+#### Props
+
+##### Default Props
+
+```
+  email:        (boolean)   = false
+```
+
+##### Usable Props
+
+```
+  loginAction:  (function) : required
+  email:        (boolean)  : i.e <LoginForm email loginAction={showInputs}>
+```
+---
+
